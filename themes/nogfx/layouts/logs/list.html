@@ -1,0 +1,83 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+<div class="container-fluid block-breadcrumb">
+  <nav class="row" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <div class="col">
+      <ol class="breadcrumb px-2 py-3">
+        {{ if (isset .Params "game") }}
+          <li class="breadcrumb-item"><a href="/logs/">Logs</a></li>
+          {{ if isset .Params "category" }}
+            <li class="breadcrumb-item"><a href="/logs/{{ urlize .Params.game }}/">{{ .Params.game }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Params.category }}</li>
+          {{ else }}
+            <li class="breadcrumb-item active" aria-current="page">{{ .Params.game }}</li>
+          {{ end }}
+        {{ else }}
+          <li class="breadcrumb-item">Logs</li>
+        {{ end }}
+      </ol>
+    </div>
+    <div class="col-2 px-2 py-3">
+      <a href="/under-construction/">Add log</a>
+    </div>
+  </nav>
+</div>
+
+<div class="container-fluid py-md-4 block-content">
+  <main class="row">
+    <div class="col p-4">
+      {{ $type := "all" }}
+      {{ $logs := where site.RegularPages "Type" "logs" }}
+
+      {{ with .Params.game }}
+        {{ $type = "game" }}
+        {{ $logs = where $logs "Params.game" . }}
+      {{ end }}
+
+      {{ with .Params.category }}
+        {{ $type = "category" }}
+        {{ $logs = where $logs "Params.category" . }}
+      {{ end }}
+
+      {{ .Content }}
+      {{ if eq .Content "" }}
+        {{ if eq $type "game" }}
+          <p>Logs of gaming sessions from {{ .Params.game }}.</p>
+        {{ else if eq $type "category" }}
+	<p>Logs of gaming sessions from {{ .Params.game }} in the {{ .Params.category }} category.</p>
+        {{ end }}
+      {{ end }}
+
+      <table class="table mt-4">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Title</th>
+	    {{ if and (ne $type "game") (ne $type "category") }}<th scope="col">Game</th>{{ end }}
+	    {{ if eq $type "game" }}<th scope="col">Type</th>{{ end }}
+	    {{ if eq $type "category" }}<th scope="col">Character</th>{{ end }}
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          {{ $paginator := .Paginate $logs 100 }}
+	  {{ range $paginator.Pages }}
+            <tr>
+              <td class="small">{{ .Date.Format "02 Jan<br>2006" | safeHTML }}</td>
+	      <td class="small">{{ with .Params.points }}{{ cond (gt . 0) "+" "" }}{{ . }}{{ else }}0{{ end }}&nbsp;({{ .Params.votes }})</td>
+              <td scope="row"><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+	      {{ if and (ne $type "game") (ne $type "category") }}<td><a href="/logs/{{ urlize .Params.game }}/">{{ .Params.game }}</a></td>{{ end }}
+	      {{ if eq $type "game" }}<td><a href="/logs/{{ urlize .Params.game }}/{{ urlize .Params.category }}/">{{ .Params.category }}</a></td>{{ end }}
+	      {{ if eq $type "category" }}<td>{{ .Params.Character }}</td>{{ end }}
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+
+      <p class="text-center small text-muted">Showing {{ $paginator.NumberOfElements }} of {{ $paginator.TotalNumberOfElements }} logs</p>
+      {{ partial "pagination.html" . }}
+    </div>
+  </main>
+</div>
+{{ end }}

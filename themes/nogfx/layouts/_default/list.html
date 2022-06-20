@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="container-fluid py-md-4 block-content">
+    <main class="row">
+      <div class="col p-4">
+        {{ .Content }}
+      </div>
+    </main>
+  </div>
+{{ end }}

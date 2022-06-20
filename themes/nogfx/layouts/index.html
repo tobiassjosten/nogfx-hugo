@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <div class="container-fluid">
+    <header class="row px-4 py-5 header">
+      {{ $logo := imageConfig (printf "static/%s" .Params.image) }}
+      <img src="{{ .Params.image }}" class="img-fluid mx-auto header--logo" alt="{{ .Title }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}">
+    </header>
+  </div>
+
+  <div class="container-fluid py-md-4 block-content">
+    <main class="row">
+      <div class="col p-4">
+        {{ with .Params.header }}<h1>{{ . }}</h1>{{ end }}
+        {{ .Content }}
+      </div>
+    </main>
+
+    <aside class="row">
+      <div class="col-md-6 p-4 pt-2">
+        <h2>{{ with .Scratch.Get "recentposts.header" }}{{ . }}{{ else }}Recent posts{{ end }}</h2>
+        <dl>
+          {{ range first 3 (where site.RegularPages "Type" "posts") }}
+            <dt>{{ .Date.Format "2 Jan 2006" }}</dt>
+            <dd><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
+          {{ end }}
+        </dl>
+      </div>
+
+      <div class="col-md-6 p-4 pt-2">
+        <h2>Recent logs</h2>
+        <dl>
+          {{ range first 3 (where site.RegularPages "Type" "logs") }}
+            <dt>{{ .Params.Game }}</dt>
+            <dd><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
+          {{ end }}
+        </dl>
+      </div>
+    </aside>
+
+    <aside class="row">
+      <div class="col-4 p-4 pt-2">
+        <img src="https://gravatar.com/avatar/04ce4aa9f079c590959ba7c47276549f?s=316&d=robohash&r=x" class="img-fluid rounded" alt="Tobias Sjösten">
+      </div>
+      <div class="col p-4 pt-2">
+        <h2>Hi, I'm Tobias!</h2>
+        <p>I'm a software engineer who have been playing MUDs since 1997 and think it's undeniably the superior form of gaming.</p>
+        <p class="text-end"><a href="/about/">Read the whole story »</a></p>
+      </div>
+    </aside>
+  </div>
+{{ end }}

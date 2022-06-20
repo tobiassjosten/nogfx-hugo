@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="container-fluid py-md-4 block-content">
+    <main class="row">
+      <div class="col p-4">
+        {{ .Content }}
+
+        {{ $release := getJSON "https://api.github.com/repos/tobiassjosten/nogfx/releases/latest" }}
+	<p class="fst-italic text-center mt-5">Latest release: <a href="{{ $release.html_url }}">{{ $release.tag_name }}</a></p>
+      </div>
+    </main>
+  </div>
+</main>
+{{ end }}

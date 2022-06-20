@@ -1,0 +1,25 @@
+baseURL = 'https://www.nogfx.com/'
+enableGitInfo = true
+languageCode = 'en-us'
+paginatePath = '/'
+theme = 'nogfx'
+title = 'Nogfx'
+
+[permalinks]
+  logs = '/:sections/:year-:month-:day-:slug/'
+  pages = '/:filename/'
+  posts = '/:slug/'
+
+[frontmatter]
+  date = [':filename', ':default']
+  lastmod = [':git', ':default']
+
+[module]
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

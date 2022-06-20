@@ -1,0 +1,23 @@
+{{ $header := .Title }}{{ with .Params.header }}{{ $header = . }}{{ end }}
+<div class="container-fluid">
+  <header class="row px-4 py-5 header{{ with .Params.image }} with-image{{ end }}">
+    <h1 class="col header--title">{{ $header }}</h1>
+    {{ with .Params.intro }}
+      <p class="mt-3 header--intro">{{ . | markdownify }}</p>
+    {{ end }}
+    {{ with .Scratch.Get "headerLogIntro" }}
+      <p class="mt-3 header--intro"><small>Shared by <strong>{{ with $.Params.character }}{{ . }}{{ else }}Anonymous{{ end }}</strong> on {{ $.Date.Format "02 Jan 2006" }}.</small></p>
+      {{ with $.Params.note }}
+        <p class="header--intro">{{ . }}</p>
+      {{ end }}
+    {{ end }}
+    {{ with .Params.image }}
+      <img src="{{ . }}" class="img-fluid mx-auto header--image" alt="{{ $header }}">
+    {{ end }}
+  </header>
+  {{ with .Params.image }}
+    </div>
+    <div class="container-fluid block-content">
+      <div class="row header--image-padding"><div class="col"></div></div>
+  {{ end }}
+</div>

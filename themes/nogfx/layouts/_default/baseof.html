@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ $title := "" }}
+    {{ with .Params.title }}{{ $title = . }}{{ end }}
+    <title>{{ $title }}{{ if ne $title .Site.Title }}{{ if ne $title "" }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+    {{ hugo.Generator }}
+
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/schema.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    {{ $bootstrapcss := resources.GetRemote "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" }}
+    {{ $localcss := resources.Get "styles.css" }}
+    {{ $styles := slice $bootstrapcss $localcss | resources.Concat "styles.css" }}
+    {{ $styles = $styles | resources.Minify }}
+    <link rel="stylesheet" href="{{ $styles.Permalink | relURL }}">
+
+    {{ if not .IsHome }}
+      {{ with .Site.GetPage "/" }}
+        {{ with .OutputFormats.Get "rss" }}
+          {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ range .AlternativeOutputFormats }}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $title | safeHTML }}
+    {{ end }}
+
+    <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '96399');
+    </script>
+
+  </head>
+  <body class="d-flex flex-column min-vh-100{{ with .Type }} type-is-{{ . }}{{ end }}{{ with .Kind }} kind-is-{{ . }}{{ end }}{{ with .Section }} section-is-{{ . }}{{ end }}">
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand menu menu--header">
+        <ul class="navbar-nav">
+          {{ range .Site.Menus.header }}
+            {{ $active := or ($.IsMenuCurrent "nav" .) ($.HasMenuCurrent "nav" .) }}
+            {{ $active = or $active (eq .Page $) }}
+            <li clas="nav-item">
+                <a class="nav-link{{ if $active }} active" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+
+    {{ block "main" . }}{{ end }}
+
+    <footer class="container-fluid">
+      <nav class="navbar navbar-expand mt-auto menu menu--footer">
+        <ul class="navbar-nav">
+          {{ range .Site.Menus.footer }}
+            {{ $active := or ($.IsMenuCurrent "nav" .) ($.HasMenuCurrent "nav" .) }}
+            {{ $active = or $active (eq .Page $) }}
+            <li clas="nav-item">
+                <a class="nav-link{{ if $active }} active" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </footer>
+
+    {{ $bootstrapjs := resources.GetRemote "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" }}
+    {{ $vuejs := resources.GetRemote "https://unpkg.com/vue@3/dist/vue.global.prod.js" }}
+    {{ $ansiupjs := resources.GetRemote "https://raw.githubusercontent.com/drudru/ansi_up/v5.1.0/ansi_up.js" }}
+    {{ $localjs := resources.Get "scripts.js" }}
+    {{ $scripts := slice $bootstrapjs $vuejs $ansiupjs $localjs | resources.Concat "scripts.js" }}
+    {{ $scripts = $scripts | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $scripts.Permalink | relURL }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+  </body>
+</html>

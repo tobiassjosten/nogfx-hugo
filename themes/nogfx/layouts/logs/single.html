@@ -1,0 +1,70 @@
+{{ define "main" }}
+  <!-- @todo Replace with https://github.com/gohugoio/hugo/issues/4560 -->
+  {{ .Scratch.Set "headerLogIntro" true }}
+  {{ partial "header.html" . }}
+
+  <div class="container-fluid block-breadcrumb">
+    <nav class="row" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <div class="col">
+        <ol class="breadcrumb px-2 py-3">
+          <li class="breadcrumb-item"><a href="/logs/">Logs</a></li>
+          {{ with .Params.game }}
+            <li class="breadcrumb-item"><a href="/logs/{{ urlize . }}/">{{ . }}</a></li>
+            {{ with $.Params.category }}
+              <li class="breadcrumb-item"><a href="/logs/{{ urlize $.Params.game }}/{{ urlize . }}/">{{ . }}</a></li>
+            {{ end }}
+          {{ end }}
+        </ol>
+      </div>
+      <div class="col-2 px-2 py-3">
+      <a href="/under-construction/">Add log</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container-fluid block-log">
+    <main class="row p-2 g-0">
+      <div class="col log--body" data-log="{{ trim .RawContent "\r\n" }}">{{ trim .RawContent "\r\n" }}</div>
+    </main>
+  </div>
+
+  <div class="container-fluid block-content">
+    <aside class="row">
+      <div class="col p-4 text-center">
+        <p class="lead">{{ with .Params.points }}{{ cond (gt . 0) "+" "" }}{{ . }}{{ else }}0{{ end }} points with {{ .Params.votes }} votes</p>
+      </div>
+    </aside>
+
+    {{ $hasComments := false }}
+    {{ with index .Site.Data.logs.comments (urlize .Params.game) }}
+    {{ with index . $.File.BaseFileName }}
+    {{ $hasComments = true }}
+    {{ range $i, $comment := . }}
+      <aside class="row">
+        {{ if $comment.published }}
+          <div class="col p-4{{ if ge $i 1 }} pt-0{{ end }}" style="max-width: calc(80px + 1.5em);">
+            <img class="float-start" src="https://www.gravatar.com/avatar/{{ $comment.gravatar }}?s=80&d=mp">
+          </div>
+          <div class="col p-4{{ if ge $i 1 }} pt-0{{ end }}">
+            <p class="text-muted mb-0 small">Commented by {{ $comment.user }}{{ with $comment.admin }} (admin){{ end }}{{ with $comment.author }} (author){{ end }} on {{ ($comment.date | time.AsTime).Format "02 Jan 2006" }}</p>
+            {{ $comment.content | markdownify }}
+          </div>
+        {{ else }}
+          <div class="col p-4{{ if ge $i 1 }} pt-0{{ end }}">
+            <div class="alert alert-secondary">
+              <p class="text-muted mb-0 small fst-italic">This comment has been deleted.</p>
+            </div>
+          </div>
+        {{ end }}
+      </aside>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    <aside class="row">
+      <div class="col p-4 pt-0">
+        <p class="fst-italic">Commenting and voting is <a href="/under-construction/">temporarily disabled</a>.</p>
+      </div>
+    </aside>
+  </div>
+{{ end }}

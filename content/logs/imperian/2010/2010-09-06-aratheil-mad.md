@@ -1,0 +1,15 @@
++++
+aliases = ["/logs/1250"]
+category = "Humour"
+game = "Imperian"
+points = 1
+title = "Aratheil mad"
+votes = 3
++++
+
+Issue #97006   Reported by: Vyolet    Re: Selthis
+2010-09-06 07:05:06: 
+I wasn\'t able to resolve this issue as I was not given the chance to. I was kept in the dark until My characters love interest claims he cannot handle being mocked anymore ...My character was given this information which came as a complete surprise to me.: the xxx\'s are for the privacy and prevention of repercussions on the player involved. He can issue sparately if he wishes. xxx says, \"Getting so sick of people giving me shit for being with you, because of what you do on your alts. *sigh*.\" xxx says, \"I\'m just tired of it.\" xxx says, \"It\'s on the verge of just not wanting to be on xxx anymore.\" xxx says, \"I\'ve been desperately trying to keep things IC.\" xxx says, \"But all they see you as is a Lyla/Aratheil alt.\"  You say, \"And its metagaming. issue it.\" xxx says, \"It\'s an OOC clan.\" xxx says, \"Selthis is the one that has a problem with you for some reason.\"-- I\'ve not told anyone my alts. Yet no matter how i play them how I avoid the guides as i know they can see everything til your 21,that information is courtesy to Mikihide who claims to be a guide, they use it to wreck someone elses RP. They don\'t even have proof if I am or am not those alts. I have lost an RP do to this fellow\'s mouth. It\'s harassment.while not directly to me he obviously hounded the poor fellow til he left thus affecting me, destroying my rp. To be honest, I should also issue xxx, but He\'s obviously been through enough. This is a senario that happens over and over again and not just to me, but many others. It is metagaming, harassment and its rediculous.*NOTE:I am not issuing on behalf of xxx. This is in direct concern to me and my character. Now two peoples game is ruined because this fellow went above and beyond anything acceptable. Thankyou
+--[Reply]--
+2010-09-06 20:11:06: 
+To be clear, I have not spoken to Vyolet or any of her alts in any way that could be construed as harassment. While it is true that I have mocked certain people on an OOC clan with respect to their sexual predilections in the game, I have not once done it to harass anyone, and frankly sometimes people do things that end up getting them laughed at, in this case it was attempting to insult an organization for taking in notorious mudsex characters while participating in the same activity himself. That is all this is. Jarrhn, the individual being mocked simply did what people do when they no longer enjoy being part of an OOC clan, they leave the clan and prevent future occurrences of said mocking. If he did choose to stop spending time with Vyolet as well, I can\'t see how that blame can be placed on me.

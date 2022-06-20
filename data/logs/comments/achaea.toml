@@ -1,0 +1,684 @@
+
+[[2006-06-25-serpentlords-bar]]
+  admin = true
+  author = false
+  content = "Ouch.. Hadn't I killed him there, he had gotten me for sure. The illusion detection was a tad too paranoid, it seems, not registering the nice vivisection setup."
+  date = "2008-05-18"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2006-06-25-serpentlords-bar]]
+  admin = false
+  author = false
+  content = "Calotropis like a pro"
+  date = "2008-05-18"
+  gravatar = "fb13322e1909a755e3d350e7e1cef9ef"
+  published = true
+  user = "powersmike84@xxx"
+
+[[2008-05-16-trendor-vs-mourdred-part-deux]]
+  admin = true
+  author = false
+  content = "What does KCS stand for? As seen like:\r\n\r\n[KCS]: TARGET ATE BLOODROOT"
+  date = "2008-05-16"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-05-16-trendor-vs-mourdred-part-deux]]
+  admin = false
+  author = true
+  content = "Knight Combat System. Just a little something I came up with. I used the i_info, i_alert, i_warning, and i_error from Acropolis to print things out on my screen. They aren't the exact same aliases though. I have some mxp thrown in to use html colors."
+  date = "2008-05-16"
+  gravatar = "94028a475bb4809dc96b5457a29c45ed"
+  published = true
+  user = "mbrewer77@xxx"
+
+[[2008-05-22-sneak-peek-at-the-new-marks-system]]
+  admin = true
+  author = false
+  content = "Nice, it's looking good! Overall it's very alike Whyte's IMTS - perhaps it's an extended version, this?\r\n\r\nAs for the vmap - I'll look into fixing that."
+  date = "2008-05-22"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-05-22-sneak-peek-at-the-new-marks-system]]
+  admin = false
+  author = true
+  content = "Yes, Vadi Mapper is \"IMapper +n\", literally."
+  date = "2008-05-22"
+  gravatar = "d79d876878edcc41ec49bdcf4f2f3875"
+  published = true
+  user = "vadimuses@xxx"
+
+[[2008-06-04-my-slainshow-d]]
+  admin = false
+  author = false
+  content = "What? o.o"
+  date = "2008-06-04"
+  gravatar = "8cfb2ccd2c6065532287994d05a8d7b2"
+  published = true
+  user = "dragontheme_tim@xxx"
+
+[[2008-06-04-my-slainshow-d]]
+  admin = false
+  author = false
+  content = "haha. i should make one of these for comedy"
+  date = "2008-06-04"
+  gravatar = "257750774315254a1eb323897112ae8d"
+  published = true
+  user = "infinityedge@xxx"
+
+[[2008-06-04-my-slainshow-d]]
+  admin = true
+  author = false
+  content = "Why don't you add some sorting to the list? Then you would at least be able to claim some usability. :>\r\n\r\nI have logged every playing session since I started in Imperian, with the express purpose of one day writing a module for tracking statistics like this. Of course I wont ever get around to it, but that's besides the point.."
+  date = "2008-06-04"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-06-04-my-slainshow-d]]
+  admin = false
+  author = true
+  content = "Well, it's not my script.  Suppose I could add sorting, but I'm just going to be updating this log every time I clear it.  Going to keep the script running for a level at a time, and note what level it was between. :)\r\n\r\nGoing to be doing the same with the crit tracker, Total Criticals       1675  14.35%                1675  14.35%\r\nat level 77 is fun =)"
+  date = "2008-06-05"
+  gravatar = "d8ebaed59c6f1a53988eb709e1f6fb3a"
+  published = true
+  user = "keegan@xxx"
+
+[[2008-06-06-achaean-crit-tracking]]
+  admin = true
+  author = false
+  content = "What other ways, if any, of upping crit rate do you Achaeans have?"
+  date = "2008-06-06"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-06-06-achaean-crit-tracking]]
+  admin = false
+  author = false
+  content = "I think they've got pendant, maybe something like warden deadaim too?"
+  date = "2008-06-06"
+  gravatar = "8cfb2ccd2c6065532287994d05a8d7b2"
+  published = true
+  user = "dragontheme_tim@xxx"
+
+[[2008-06-06-achaean-crit-tracking]]
+  admin = false
+  author = true
+  content = "Achaeans can buy a crit pendant artefact. (2/100, 4/100, or +6/100 according to the artefacts help file)  Not sure if any skills up critrate, though.  I'm pretty sure I don't have any of them, if they do. 'm a monk."
+  date = "2008-06-06"
+  gravatar = "d8ebaed59c6f1a53988eb709e1f6fb3a"
+  published = true
+  user = "keegan@xxx"
+
+[[2008-06-06-achaean-crit-tracking]]
+  admin = false
+  author = true
+  content = "Hmm.  HELP ARTEFACTSOFFENSIVE states the critrate at 80 is 16.6%, yet my critrate out of 25k hits at 79 was 16.4%.  Curious how 80's going to turn out =o"
+  date = "2008-06-10"
+  gravatar = "d8ebaed59c6f1a53988eb709e1f6fb3a"
+  published = true
+  user = "keegan@xxx"
+
+[[2008-06-24-trendor-vs-izzadorra]]
+  admin = false
+  author = false
+  content = "\r\nWow, people don't even need to mangle limbs for a vivisect in achaea? "
+  date = "2008-06-24"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-06-24-trendor-vs-izzadorra]]
+  admin = false
+  author = false
+  content = "If you use the mending break toxins and your opponent doesn't heal them(Like what happened here, epseth and epteth), you can do that anywhere."
+  date = "2008-06-24"
+  gravatar = "a91faec9bfac949e895e3f74965bb1d1"
+  published = true
+  user = "logiccrisis@xxx"
+
+[[2008-06-24-trendor-vs-izzadorra]]
+  admin = false
+  author = false
+  content = "wait, what, falcons defstripping\r\n\r\nwtf i want that :("
+  date = "2008-06-24"
+  gravatar = "257750774315254a1eb323897112ae8d"
+  published = true
+  user = "infinityedge@xxx"
+
+[[2008-06-24-trendor-vs-izzadorra]]
+  admin = false
+  author = false
+  content = "\r\nfalconstrip is crazy, add in cleansing :/\r\n\r\nAnd i didn't mean I didn't get the part of all limbs being broken with epseth. Just saying it's almost impossible unless it's against a newbie to get them with vivisect without actully having to mangle the limbs ^^"
+  date = "2008-06-25"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-06-28-trendor-vs-lilin-3]]
+  admin = false
+  author = false
+  content = "What's heartstop anyway? :/"
+  date = "2008-06-28"
+  gravatar = "8cfb2ccd2c6065532287994d05a8d7b2"
+  published = true
+  user = "dragontheme_tim@xxx"
+
+[[2008-06-28-trendor-vs-lilin-3]]
+  admin = false
+  author = false
+  content = "Basically, you become an hero through force of will"
+  date = "2008-06-28"
+  gravatar = "d57d0a510e9b661f8cbefd21172e5c2b"
+  published = true
+  user = "vharen@xxx"
+
+[[2008-06-28-trendor-vs-lilin-3]]
+  admin = false
+  author = false
+  content = "\r\nAka, you kill yourself insteed of letting your enemies do it. You lose more exp though. It's a skill in Survival"
+  date = "2008-06-29"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = false
+  content = "stop heartstopping :\\"
+  date = "2008-07-03"
+  gravatar = "8cfb2ccd2c6065532287994d05a8d7b2"
+  published = true
+  user = "dragontheme_tim@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = true
+  content = "It's fun :P"
+  date = "2008-07-04"
+  gravatar = "94028a475bb4809dc96b5457a29c45ed"
+  published = true
+  user = "mbrewer77@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = false
+  content = "I don't play Achaea so maybe I'm missing something here, but... why did you heartstop? It didn't look like you were even close to death..."
+  date = "2008-07-04"
+  gravatar = "727dd3a2eb663ae18b0c68faa25cc414"
+  published = true
+  user = "prismaticray@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = true
+  content = "It was just a spar. I was frustrated and basically just gave up. "
+  date = "2008-07-04"
+  gravatar = "94028a475bb4809dc96b5457a29c45ed"
+  published = true
+  user = "mbrewer77@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = false
+  content = "Giving up doesn't get you anywhere!"
+  date = "2008-07-04"
+  gravatar = "609c4d7ad3315cc8d4dcf0ea9dbec3ed"
+  published = true
+  user = "vathael@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = false
+  content = "^"
+  date = "2008-07-05"
+  gravatar = "8cfb2ccd2c6065532287994d05a8d7b2"
+  published = true
+  user = "dragontheme_tim@xxx"
+
+[[2008-07-02-trendor-vs-lilin-6]]
+  admin = false
+  author = false
+  content = "^\r\n^"
+  date = "2008-07-05"
+  gravatar = "727dd3a2eb663ae18b0c68faa25cc414"
+  published = true
+  user = "prismaticray@xxx"
+
+[[2008-07-14-smoke-pipe-x-1000]]
+  admin = true
+  author = false
+  content = "I haven't noticed before but those messages in the smiley you get from weed are awesome! \"They are out to get you\". :D"
+  date = "2008-07-14"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-07-14-soa]]
+  admin = false
+  author = false
+  content = "\r\nYou also uses a axekick insteed of BBT in the end. Achaea still doesn't have instantkill on 3 BBTs? Then it's a big laugh to try to kill someone "
+  date = "2008-07-16"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-07-22-sykellus-vs-gildenlow-hashan-rampage]]
+  admin = true
+  author = false
+  content = "I like your color scheme! It seems you're coloring your various toxins (poisons?) differently - what's the thought behind this?"
+  date = "2008-07-22"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2008-07-22-sykellus-vs-gildenlow-hashan-rampage]]
+  admin = false
+  author = false
+  content = "Probably cure based.\r\n\r\nCan't wait until Hargath has enough experience to fight."
+  date = "2008-07-22"
+  gravatar = "ebd6921f7847fb13251d1d76b93209b2"
+  published = true
+  user = "codeacula@xxx"
+
+[[2008-07-22-sykellus-vs-gildenlow-hashan-rampage]]
+  admin = false
+  author = true
+  content = "Yes, it is kind of cure-based. If it's a goldenseal venom, it's green, bloodroot is red, kelp is olive, etc.\r\n"
+  date = "2008-07-22"
+  gravatar = "17942ab6750568775e6cb939bc3f9563"
+  published = true
+  user = "ga.shredder@xxx"
+
+[[2008-07-22-sykellus-vs-gildenlow-hashan-rampage]]
+  admin = false
+  author = false
+  content = "What's up with the stars, btw?"
+  date = "2008-07-24"
+  gravatar = "ebd6921f7847fb13251d1d76b93209b2"
+  published = true
+  user = "codeacula@xxx"
+
+[[2008-07-23-vadi-vs-tirac]]
+  admin = false
+  author = false
+  content = "no we won't =("
+  date = "2008-07-23"
+  gravatar = "ebd6921f7847fb13251d1d76b93209b2"
+  published = true
+  user = "codeacula@xxx"
+
+[[2008-07-23-vadi-vs-tirac]]
+  admin = false
+  author = true
+  content = "Killed the html colors"
+  date = "2008-07-23"
+  gravatar = "d79d876878edcc41ec49bdcf4f2f3875"
+  published = true
+  user = "vadimuses@xxx"
+
+[[2008-09-10-rean-vs-kandor]]
+  admin = false
+  author = false
+  content = "\r\nI don't understand Achaean combat, it seems so utterly damn boring. You can't use hallucinations after combos? Or telepathy? You don't work on double legbreaks or anything of a setup? You always borrow tons of artifacts before you fight? "
+  date = "2008-09-10"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-09-10-rean-vs-kandor]]
+  admin = false
+  author = false
+  content = "pimpim, look at my fight, Lyn v. Eiie. I work off breaks a lot"
+  date = "2008-09-10"
+  gravatar = "697b68ef62dfbd5cf99b6bc482ce2dfc"
+  published = true
+  user = "jmixednuts4444@xxx"
+
+[[2008-09-10-rean-vs-kandor]]
+  admin = false
+  author = false
+  content = "When I played a monk on Achaea, I would use hallucinations in a fight but no you couldn't do it right after you combo. I'd set up double breaks, throw things in blackout, or use hallucinations and telepathy to mess people up for a cripple/bbt train. Though, yes, Achaea combat is linear and boring."
+  date = "2008-09-10"
+  gravatar = "609c4d7ad3315cc8d4dcf0ea9dbec3ed"
+  published = true
+  user = "vathael@xxx"
+
+[[2008-09-10-rean-vs-kandor]]
+  admin = false
+  author = false
+  content = "\r\nWhat I meant was more like, wow, monks sure look boring in Achaea. If you can't combine combos with hallucinations like imperian you are little to worthless against anyone who can tank/have a clue about healing, and since most people use larkims system, they can do average on healing. And the lack of posture that we have in imperian (keeping your stance for a high drain of Endurance) you lose alot of speed. Thankfully I left Achean combat ages ago ^^"
+  date = "2008-09-10"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "Set your life more easy get the <a href=\"http://goodfinance-blog.com/topics/business-loans\">business loans</a> and all you want. "
+  date = "2011-10-27"
+  gravatar = "6c32f4827ab7333b8b7eb500c51680a4"
+  published = true
+  user = "leothompson@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "There are many custom writing companies where you can buy custom coursework. Nevertheless, the most reliable of them provide the best and premium quality!  "
+  date = "2011-10-28"
+  gravatar = "0ba5380f4b887ef297b4619d6079e1d5"
+  published = true
+  user = "samantablackeyes@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "Do not purchase useless things and pay money for custom essay service, which can help you to build your academic career. "
+  date = "2011-11-02"
+  gravatar = "ecac05177f46505f0ba68a4a06edf1c9"
+  published = true
+  user = "oooblacky@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-11-05"
+  gravatar = "2caa51cb450f4787be4f5683df021826"
+  published = true
+  user = "satturnus@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-11-05"
+  gravatar = "2caa51cb450f4787be4f5683df021826"
+  published = true
+  user = "satturnus@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-11-08"
+  gravatar = "bc523096da0cdccfa3400c27a5ab628f"
+  published = true
+  user = "pamelachester@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-11-09"
+  gravatar = "1558821b160d461c33a4fe2c93fa9b66"
+  published = true
+  user = "leilavance@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-12-29"
+  gravatar = "6067d2dcd5549be0661d8d02709557e4"
+  published = true
+  user = "crystalwright@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2011-12-31"
+  gravatar = "b38957a284726cf048a19859b7682c7b"
+  published = true
+  user = "viciouska@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2012-01-30"
+  gravatar = "e0168ab2209ab9f566b588887192b770"
+  published = true
+  user = "colisalayla@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2012-02-16"
+  gravatar = "ba20e94412900e257a28da4302b724fd"
+  published = true
+  user = "luckyjay78@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "freelance writer"
+  date = "2012-03-27"
+  gravatar = "60ce5f70036f5eebb6db8bfa935b9e02"
+  published = true
+  user = "joefromsky@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "This is really good enough idea. That is possible to see the term paper writing service ,which can do the essay writing or custom essay. So, people will buy custom essay . "
+  date = "2012-06-27"
+  gravatar = "6d7f5141581346d9d00aad0f09b5aa74"
+  published = true
+  user = "lisagreen@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = " Click here  and permit expert wordsmiths to suggest you prime writing services. Buy custom essays from the agency that works round-the-clock."
+  date = "2012-07-02"
+  gravatar = "10fb91c0d5bb4a077d95d3b4b6070f04"
+  published = true
+  user = "maryscott@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "If you are a scholar and hunting for help with essay writing check this link qualityessays.co.uk and buy essays online."
+  date = "2012-07-19"
+  gravatar = "3097f485e1dcca87c16db914eee0b89b"
+  published = true
+  user = "conniehernandez@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "In case your written work is pretty complex to do, go to this Web site premiumqualityessays.com to save your precious time and college research paper! Our company of experienced writers is always able to give qualified custom writing UK help!"
+  date = "2012-07-19"
+  gravatar = "13f75b250ddde6718cf6aa1a3c80d32e"
+  published = true
+  user = "gertrudestephens@xxx"
+
+[[2008-10-15-old-gro-spar]]
+  admin = false
+  author = false
+  content = "Have not found required term paper writing services yet? Check out Top WritingService company to buy an essay from the trustworthy organisation."
+  date = "2012-07-22"
+  gravatar = "c5b3c29f9237dea81e2348e209ac07f9"
+  published = true
+  user = "elizabethadams@xxx"
+
+[[2009-02-17-demo-of-druid-combat-rean-vs-brock-rean-vs-fauscht]]
+  admin = false
+  author = false
+  content = ""
+  date = "2009-02-17"
+  gravatar = "5ceb8f470f1634076d94d429bcc9b030"
+  published = false
+  user = "suleyman256@xxx"
+
+[[2009-02-17-demo-of-druid-combat-rean-vs-brock-rean-vs-fauscht]]
+  admin = false
+  author = false
+  content = ""
+  date = "2009-02-19"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = false
+  user = "pimpim_85@xxx"
+
+[[2009-02-17-demo-of-druid-combat-rean-vs-brock-rean-vs-fauscht]]
+  admin = false
+  author = true
+  content = ""
+  date = "2009-02-20"
+  gravatar = "fd2607c70700e1de2718aa1a0ac1bed0"
+  published = false
+  user = "nurok22@xxx"
+
+[[2009-02-17-demo-of-druid-combat-rean-vs-brock-rean-vs-fauscht]]
+  admin = false
+  author = true
+  content = ""
+  date = "2009-02-20"
+  gravatar = "fd2607c70700e1de2718aa1a0ac1bed0"
+  published = false
+  user = "nurok22@xxx"
+
+[[2009-03-13-bad-haiku-award]]
+  admin = true
+  author = false
+  content = "That trophy. :D I love that letter!"
+  date = "2009-03-14"
+  gravatar = "04ce4aa9f079c590959ba7c47276549f"
+  published = true
+  user = "tobias.sjosten@xxx"
+
+[[2009-04-19-achaeas-pk-rules]]
+  admin = false
+  author = false
+  content = "GG achaea, as horrible and pathetic as always :("
+  date = "2009-04-20"
+  gravatar = "a886160f6368d600ed79cfef78c1cb9d"
+  published = true
+  user = "pimpim_85@xxx"
+
+[[2009-04-19-achaeas-pk-rules]]
+  admin = false
+  author = false
+  content = "Aww, are we just catching up to what was made fun of oh..four years ago? How cute."
+  date = "2009-04-20"
+  gravatar = "79bec9966734018078fdfefd534a0050"
+  published = true
+  user = "JLGodett@xxx"
+
+[[2009-05-21-mymyc-vs-synbios]]
+  admin = false
+  author = false
+  content = "Afflicted him before the fight actually started?"
+  date = "2009-05-21"
+  gravatar = "76cdd14521402ec6e243e7bcd67d06ef"
+  published = true
+  user = "blue_eyed_mikey1980@xxx"
+
+[[2009-05-21-mymyc-vs-synbios]]
+  admin = false
+  author = true
+  content = ""
+  date = "2009-05-23"
+  gravatar = "560152c229bcf1ee2d49242658b4f802"
+  published = false
+  user = "d.szabo2@xxx"
+
+[[2009-05-21-mymyc-vs-synbios]]
+  admin = false
+  author = true
+  content = "Implanted afflictions before and during the beginning of the fight. They remain inactive until I snap my fingers. Seal time 1 sec (first afflict after snap).\r\n\r\n\r\nFirst affliction activate itself at this line -> Synbios shakes his head dizzily."
+  date = "2009-05-23"
+  gravatar = "560152c229bcf1ee2d49242658b4f802"
+  published = true
+  user = "d.szabo2@xxx"
+
+[[2009-05-21-mymyc-vs-synbios]]
+  admin = false
+  author = false
+  content = "That's afflicting before the fight starts. That's just like a cleric setting up rites or a mage setting up their kill room before starting a fight."
+  date = "2009-05-29"
+  gravatar = "ebd6921f7847fb13251d1d76b93209b2"
+  published = true
+  user = "codeacula@xxx"
+
+[[2009-06-17-unstoppable-offense-and-spires-speed-breaks]]
+  admin = false
+  author = false
+  content = ""
+  date = "2009-06-19"
+  gravatar = "360b8a1fedf66409862f7b304466843e"
+  published = false
+  user = "Slapshotfan91@xxx"
+
+[[2010-02-19-bryt-vs-zaldin]]
+  admin = false
+  author = false
+  content = "Nice swk spam. Never seen that before."
+  date = "2010-02-19"
+  gravatar = "609c4d7ad3315cc8d4dcf0ea9dbec3ed"
+  published = true
+  user = "vathael@xxx"
+
+[[2010-02-19-bryt-vs-zaldin]]
+  admin = false
+  author = false
+  content = "I haven't played Achaea for a while, but it looks to me like Zaldin is a hunter who was trying to kill you without pets by throwing targetted axes at you from inside your room... \r\n\r\nI'm fairly certain you could have just uppercut him to death. "
+  date = "2010-02-19"
+  gravatar = "92467a33c20ef4c2d82bb7101089334b"
+  published = true
+  user = "dgroz093@xxx"
+
+[[2010-08-12-omgwtf-tons-of-fighting-stupid-enemy]]
+  admin = false
+  author = false
+  content = ">when I got enemied at the end it was for attacking Taraza inside Mhaldor, which if you look at it, I never actually attack her\r\n\r\nYou are getting close to the ranks of the Infamous. Be warned!\r\nYou viciously jab an ornate steel rapier into Taraza.\r\nThe songblessing unleashes a stunning percussive blast.\r\n3842h, 2421m, 16585e, 8727w, 95% cekb-  (20:34:44)\r\nAmrylin picks up the corpse of Jacintha.\r\n3842h, 2421m, 16585e, 8727w, 95% cekb-  (20:34:44)\r\nYou lightly strike the side of Taraza's head with your rapier.\r\n3842h, 2421m, 16555e, 8727w, 95% ckb-  (20:34:44)\r\nYou begin reciting an epic tale of the heroism of Nicator to Taraza, holding her\r\nspellbound.\r\n\r\nIMO, you're a liar."
+  date = "2010-08-14"
+  gravatar = "e6109e509da0357de7498aa18c6d0ff0"
+  published = true
+  user = "everythings@xxx"
+
+[[2012-03-30-vs-vincenzio]]
+  admin = false
+  author = false
+  content = "I dare you to try Imperian. swk/hfp/hfp will not suffice."
+  date = "2012-04-02"
+  gravatar = "caa1d1ff3ecedc0cc983a4441e6ff699"
+  published = true
+  user = "aetheriust@xxx"
+
+[[2012-03-30-vs-vincenzio]]
+  admin = false
+  author = true
+  content = "Umm... it doesn't suffice in Achaea either (I lost the fight as you could tell).  I am just starting practicing and at first I just want to focus on one thing at a time.  "
+  date = "2012-04-02"
+  gravatar = "9557d7b635cfae90078ab2e176162b58"
+  published = true
+  user = "mortagonaetienne@xxx"
+
+[[2012-03-30-vs-vincenzio]]
+  admin = false
+  author = false
+  content = "Start with a limb tracker, and work up from there. Base work is not spamming an alias and seeing what happens. It's testing the boundaries, and seeing the limits."
+  date = "2012-04-02"
+  gravatar = "caa1d1ff3ecedc0cc983a4441e6ff699"
+  published = true
+  user = "aetheriust@xxx"
+
+[[2013-07-16-limb-counter-in-action]]
+  admin = false
+  author = false
+  content = ""
+  date = "2013-09-12"
+  gravatar = "8294f29b56d83c9158e55f945b56d5b9"
+  published = false
+  user = "sebaste300@xxx"
