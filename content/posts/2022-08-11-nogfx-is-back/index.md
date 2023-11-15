@@ -1,7 +1,6 @@
 +++
 title = 'Nogfx is back!'
 intro = "After a looong hiatus, we're finally back. This time with some extras."
-draft = true
 +++
 
 The first version of this website saw the light of day back in 2006. It was a very simple piece of software, where you could upload a log from your MUD gaming session, to more easily share your experience.
